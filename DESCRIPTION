@@ -1,0 +1,14 @@
+Package: hctrial
+Type: Package
+Title: Using Historical Controls for Designing Phase II Clinical Trials
+Version: 0.1.0
+Authors@R: person("Dominic", "Edelmann", email = "dominic.edelmann@dkfz-heidelberg.de",
+  role = c("aut", "cre"))
+Description: Provides functions for designing phase II clinical trials adjusting for the heterogeneity of the population using known subgroups or historical controls.
+Depends:
+  R (>= 3.5.0)
+License: GPL-2 | GPL-3
+LazyData: TRUE
+RoxygenNote: 6.1.1
+Imports: clinfun, GenBinomApps, stats
+Encoding: UTF-8
